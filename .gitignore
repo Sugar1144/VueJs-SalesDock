@@ -1,34 +1,23 @@
-# Node dependencies
-/node_modules
-
-# Build output
+.DS_Store
+node_modules
 /dist
-/build
-/out
 
-# Local environment variables
-.env
-.env.*
-!.env.example # Keep example for reference
 
-# Logs
-logs
-*.log
+# local env files
+.env.local
+.env.*.local
 
-# Misc
-.DS_Store # macOS specific
-Thumbs.db # Windows specific
-.vscode/ # VS Code settings, if not shared
-*.sublime-project
-*.sublime-workspace
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Nuxt.js specific (if applicable)
-.nuxt
-.output
-.data
-.nitro
-.cache
-
-# Cypress specific (if applicable)
-cypress/videos/
-cypress/screenshots/
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
