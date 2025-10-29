@@ -1,0 +1,34 @@
+# Node dependencies
+/node_modules
+
+# Build output
+/dist
+/build
+/out
+
+# Local environment variables
+.env
+.env.*
+!.env.example # Keep example for reference
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+.vscode/ # VS Code settings, if not shared
+*.sublime-project
+*.sublime-workspace
+
+# Nuxt.js specific (if applicable)
+.nuxt
+.output
+.data
+.nitro
+.cache
+
+# Cypress specific (if applicable)
+cypress/videos/
+cypress/screenshots/
